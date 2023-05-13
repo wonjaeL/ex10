@@ -6,8 +6,8 @@ import {getAuth, createUserWithEmailAndPassword } from 'firebase/auth'
 const JoinPage = ({history}) => {
     const auth = getAuth(app);
     const [form, setForm] = useState({
-        email:'red@inha.com',
-        password: '12341234'
+        email:'wonjae@inha.ac.kr',
+        password: 'testtest'
     });
     const [loading, setLoading] = useState(false);
     const {email, password} = form;
